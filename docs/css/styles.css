@@ -561,6 +561,13 @@ footer {
     text-decoration: none;
     background-color: rgb(82, 82, 252);
   }
+  .celular img {
+    max-width: 257px;
+  }
+  .dedonde {
+    padding-top: 10px;
+    max-width: 464px;
+}
 }
 
 @media (min-width: 827px) {
@@ -570,14 +577,29 @@ footer {
   #burger-close {
     display: none !important;
   }
+  .celular img {
+    max-width: 357px;
+  }
+  .dedonde {
+    padding-top: 120px;
+    max-width: 329px;
+}
+  
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1128px) {
   .foto {
     width: 33.33%;
   }
 
   #burger-close {
     display: none !important;
+  }
+  .celular img {
+    max-width: 427px;
+  }
+  .dedonde {
+    padding-top: 200px;
+    max-width: 464px;
   }
 }
