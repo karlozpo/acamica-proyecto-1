@@ -133,7 +133,9 @@ p {
 }
 .medidabanner {
   max-width: 628px;
+      
 }
+
 .topcolor {
   position: relative;
   height: 106px;
@@ -369,6 +371,15 @@ footer {
   margin-left: 36px;
   font-size: 18px;
 }
+.social a{
+  transition: all 1s ease;
+  color:black;
+
+}
+.social a:hover{
+  color:#0000ec;
+ 
+}
 .item {
   display: block;
 }
@@ -491,6 +502,7 @@ footer {
   .social {
     margin-top: 16px;
   }
+  
   footer {
     flex-wrap: wrap;
     justify-content: center;
