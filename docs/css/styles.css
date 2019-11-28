@@ -133,7 +133,7 @@ p {
 }
 .medidabanner {
   max-width: 628px;
-      
+  
 }
 
 .topcolor {
@@ -476,7 +476,12 @@ footer {
   color: #00f3bb;
   text-decoration: line-through;
 }
-
+.espacio36{
+  margin-bottom: 36px;
+}
+figcaption.centrarTexto {
+  margin-top: 29px;
+}
 .menu-options-links {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
