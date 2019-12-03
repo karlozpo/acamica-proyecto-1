@@ -83,6 +83,9 @@ p {
   width: 45%;
   padding: 1%;
 }
+.episodio iframe{
+  width: 100%;
+}
 .episodio img {
   width: 100%;
 }
