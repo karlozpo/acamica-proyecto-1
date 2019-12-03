@@ -34,6 +34,7 @@ h1 {
   font-size: 64px;
   padding: 0;
   margin: 0;
+  font-weight: 100;
 }
 h2 {
   font-size: 48px;
@@ -493,12 +494,21 @@ figcaption.centrarTexto {
 
     
 @media (max-width: 826px) {
+
+  #bannerPrincipal {
+    width: 90%;
+  }
+
   h1 {
     font-size: 54px;
   }
   .episodio {
     width: 90%;
     padding: 10px;
+  }
+  .centrado {
+    width: 90%;
+
   }
   .social .fab {
     margin-left: 16px;
